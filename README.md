@@ -20,9 +20,20 @@ A collection of Python scripts for downloading and uploading files to/from Box u
 
 ### 1. Install Dependencies
 
+**Option 1: Install from requirements.txt (Recommended)**
 ```bash
-pip install box-sdk-gen
+pip install -r requirements.txt
 ```
+
+**Option 2: Install manually**
+```bash
+pip install box-sdk-gen PyJWT python-dotenv
+```
+
+**Required packages:**
+- `box-sdk-gen` - Official Box SDK for Python
+- `PyJWT` - Required for JWT authentication
+- `python-dotenv` - Optional, for better environment variable management
 
 ### 2. Configure Environment Variables
 
