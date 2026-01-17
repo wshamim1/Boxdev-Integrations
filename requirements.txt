@@ -1,0 +1,7 @@
+# Box SDK for Python
+# Official Box SDK for Python (Generation 2)
+box-sdk-gen>=1.0.0
+
+# Optional: For better environment variable management
+python-dotenv>=1.0.0
+PyJWT>=2.8.0
